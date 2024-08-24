@@ -39,16 +39,12 @@ nav ul li a {
     background-position: center;
     padding: 100px 20px;
     text-align: center;
-    color: #fff;
+    color: #fff; /* 原始颜色 */
 }
 
-.hero h1 {
-    font-size: 3em;
-    margin: 0;
-}
-
+.hero h1,
 .hero p {
-    font-size: 1.5em;
+    color: #000; /* 修改为黑色 */
 }
 
 .btn {
@@ -95,4 +91,3 @@ footer {
     padding: 20px;
     margin-top: 20px;
 }
-
